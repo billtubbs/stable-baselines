@@ -47,7 +47,7 @@ def window_func(var_1, var_2, window, func):
 
 def ts2xy(timesteps, xaxis):
     """
-    Decompose a timesteps variable to x ans ys
+    Decompose a timesteps variable to x and ys
 
     :param timesteps: (Pandas DataFrame) the input data
     :param xaxis: (str) the axis for the x and y output
